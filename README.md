@@ -10,7 +10,7 @@ In testing a few WordPress sites, I've constantly noticed the WP-JSON endpoint b
 Example: `python users.py wordpressite.com`
 
 Example Output:
-`
+```
 Discovered REST API is accessiable at wordpressite.com Checking remaining endpoints
 Endpoint: posts
         HTTP Status Code: 200
@@ -59,5 +59,5 @@ ID: 3
 Name: User2
 Slug: user2
 
-Users written to a CSV file.`
+Users written to a CSV file.```
 
