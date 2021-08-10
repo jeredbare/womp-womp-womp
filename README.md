@@ -5,6 +5,9 @@ This repository is a python script that will test a WordPress site to see if the
 In testing a few WordPress sites, I've constantly noticed the WP-JSON endpoint being open and exposing the users endpoint.  With that endpoint open, you can enumerate all the users and possibly pivot to a spraying or brute force attack.  This is not inherently a threat if you've secured your WordPress site with plugins such as WordFence and/or have a properly configured WAF in front of the site.
 
 # How to use
+Install the requests module.
+`pip install requirements.txt`
+
 `python users.py [wordpress_domain]`
 
 Example: `python users.py wordpressite.com`
