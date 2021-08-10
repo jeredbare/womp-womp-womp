@@ -59,5 +59,5 @@ ID: 3
 Name: User2
 Slug: user2
 
-Users written to a CSV file.```
+Users written to a CSV file.
 
